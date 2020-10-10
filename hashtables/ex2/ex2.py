@@ -5,10 +5,16 @@ class Ticket:
         self.destination = destination
 
 
+cache = {}
+
 def reconstruct_trip(tickets, length):
     """
     YOUR CODE HERE
     """
     # Your code here
+
+route = [None] * length
+
+
 
     return route
